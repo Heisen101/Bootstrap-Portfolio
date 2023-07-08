@@ -1,6 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: hidden;
+    font-family:   sans-serif;
+}
+
+
+
+             /* ---------Navbar Section____ */
 .navbar {
     display: flex;
     justify-content: center;
+    background-color: rgb(86, 92, 91, 0.7) !important ;
+    padding: 15px 0;
     
 }
 .navbar .d-flex #navbarNav ul li {
@@ -10,9 +22,18 @@
 .navbar .d-flex #navbarNav ul li a {
     
     color: white;
+    transition: 0.3s;
+    transition: transform 0.3s ease-in;
+
+    
+}
+.navbar .d-flex #navbarNav ul li a:hover{
+color: turquoise;
+transform: scale(1.1);
 }
 .navbar .d-flex .navbar-toggler {
     color: white ;
     margin-right: 10px;
     border: 2px;
+    
 }
