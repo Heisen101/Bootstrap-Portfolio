@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar .d-flex #navbarNav ul li {
+    text-transform: uppercase;
+    color: white;
+}
+.navbar .d-flex #navbarNav ul li a {
+    
+    color: white;
+}
