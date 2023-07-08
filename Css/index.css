@@ -11,3 +11,8 @@
     
     color: white;
 }
+.navbar .d-flex .navbar-toggler {
+    color: white ;
+    margin-right: 10px;
+    border: 2px;
+}
