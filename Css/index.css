@@ -13,6 +13,7 @@ body {
     justify-content: center;
     background-color: rgb(86, 92, 91, 0.7) !important ;
     padding: 15px 0;
+    letter-spacing: 0.2em;
     
 }
 .navbar .d-flex #navbarNav ul li {
@@ -36,4 +37,22 @@ transform: scale(1.1);
     margin-right: 10px;
     border: 2px;
     
+}
+
+/* ---------------Heading Section */
+.head1{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+.jumbotron .jumboCopy img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-height: 100%;
+    
+}
+.jumbotron .jumboCopy .head1 h1{
+    color: ;
 }
