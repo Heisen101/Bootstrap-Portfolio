@@ -36,7 +36,11 @@ transform: scale(1.1);
     color: white ;
     margin-right: 10px;
     border: 2px;
+    transition: 0.3s;
     
+}
+.navbar .d-flex .navbar-toggler:hover{
+    color: turquoise;
 }
 
 /* ---------------Heading Section */
