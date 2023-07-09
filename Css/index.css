@@ -104,3 +104,14 @@ transform: scale(1.1);
 #skills .text-center h2 {
     font-family: var(--text1) ;
 }
+#skills .container-lg .row .card img {
+    border-radius: 80%;
+}
+#skills .container-lg .row .card {
+    border: none;
+
+}
+#adobe {
+    
+    margin: -;
+}
