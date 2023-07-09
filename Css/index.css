@@ -1,3 +1,7 @@
+:root {
+    --text1: Lucida;
+}
+ 
 body {
     margin: 0;
     padding: 0;
@@ -60,7 +64,7 @@ transform: scale(1.1);
 .jumbotron .jumboCopy .head1 h1{
     color: white;
     font-weight: 300;
-    font-family: 'Lucida Sans';
+    font-family: var(--text1);
     letter-spacing: 9px;
     text-transform: uppercase;
     transition: transform 0.3s ease-in;
@@ -94,4 +98,9 @@ transform: scale(1.1);
 }
 .jumbotron .jumboCopy .head1 h3:hover{
     transform: scale(1.1);
+}
+
+/* -----------Skill Section ----------- */
+#skills .text-center h2 {
+    font-family: var(--text1) ;
 }
