@@ -1,5 +1,6 @@
 :root {
     --text1: Lucida;
+    --color1: turquoise;
 }
  
 body {
@@ -105,6 +106,7 @@ transform: scale(1.1);
     font-family: var(--text1) ;
     word-spacing: 15px;
     letter-spacing: 5px;
+    font-weight: bold;
 }
 #skills .container-lg .row .card img {
    
@@ -124,4 +126,33 @@ transform: scale(1.1);
 }
 #skills .container-lg .row .card .card-body p{
     font-size: 0.9em;
+}
+
+
+/* --------Work Section ---------- */
+#portfolio h2 {
+    font-family: var(--text1);
+    font-weight: bold;
+}
+#portfolio h2 .container-lg img {
+    transition: 0.3s;
+    transition: transform 0.3s ease-in;
+}
+#portfolio .container-lg .card {
+    border: solid 2px rgb(199, 183, 183) ;
+    text-align: center;
+}
+#portfolio .container-lg .card:hover {
+    color: turquoise;
+transform: scale(1.1);
+}
+#portfolio {
+    background: url(../images/1892752.jpg);
+    
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-height: 100%;
 }
