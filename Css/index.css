@@ -8,6 +8,7 @@ body {
     padding: 0;
     box-sizing: hidden;
     font-family:   sans-serif;
+    background-color: rgb(73, 59, 59);
 }
 
 
@@ -110,7 +111,9 @@ transform: scale(1.1);
     font-weight: bold;
     font-family: var(--text1);
     text-transform: uppercase;
+    color: aliceblue;
 }
+
 #skills .container-lg .row .card img {
    
     height: 150px;
@@ -129,15 +132,19 @@ transform: scale(1.1);
 }
 #skills .container-lg .row .card .card-body p{
     font-size: 0.9em;
+    color: black;
+    line-height: 1.3;
+    font-size: 0.9em;
 }
 
 
 /* --------Work Section ---------- */
 #portfolio h2 {
-    font-family: var(--text1);
+   
     font-weight: bold;
     font-family: var(--text1);
     text-transform: uppercase;
+    color: aliceblue;
 }
 #portfolio h2 .container-lg img {
     transition: 0.3s;
@@ -151,6 +158,7 @@ transform: scale(1.1);
 #portfolio .container-lg .card p {
     font-family: var(--text1);
    text-transform: uppercase;
+   color: aliceblue;
 }
 #portfolio .container-lg .card:hover {
     color: turquoise;
@@ -161,24 +169,28 @@ transform: scale(1.1);
     font-family: var(--text1);
     text-transform: uppercase;
     font-weight: bold;
+    color: aliceblue;
 }
 #about .card {
     border: none;
 }
 #about h5, p  {
 font-family: var(--text1);
+color: aliceblue;
 
 }
 #about h5 {
     font-weight: bold;
+    color: aliceblue;
 }
 #about img{
     height: 150px;
     width: 150px;
+    
     transition: 0.3s;
     transition: transform 0.3s ease-in;
 }
 #about img:hover{
-    color: turquoise;
+    color: turquoise ;
     transform: scale(1.1);
 }
