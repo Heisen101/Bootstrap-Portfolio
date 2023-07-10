@@ -8,7 +8,7 @@ body {
     padding: 0;
     box-sizing: hidden;
     font-family:   sans-serif;
-    background-color: rgb(73, 59, 59);
+    background-color: rgb(68, 59, 59, 0.9);
 }
 
 
@@ -158,7 +158,9 @@ transform: scale(1.1);
 #portfolio .container-lg .card p {
     font-family: var(--text1);
    text-transform: uppercase;
-   color: aliceblue;
+   color: black;
+   font-weight: bold;
+   
 }
 #portfolio .container-lg .card:hover {
     color: turquoise;
