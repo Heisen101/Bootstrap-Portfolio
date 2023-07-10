@@ -50,7 +50,7 @@ transform: scale(1.1);
 
 /* ---------------Heading Section */
 .jumbotron {
-    background-image: url(../images/Embed\ 1.\ GettyImages-499081730_Web72DPI_0.jpg);
+    background-image: url(../images/future\ expirience.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@ transform: scale(1.1);
 }
 #portfolio h2 .container-lg img {
     transition: 0.3s;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease;
 }
 #portfolio .container-lg .card {
     border: solid 2px ;
@@ -170,4 +170,14 @@ font-family: var(--text1);
 }
 #about h5 {
     font-weight: bold;
+}
+#about img{
+    height: 150px;
+    width: 150px;
+    transition: 0.3s;
+    transition: transform 0.3s ease-in;
+}
+#about img:hover{
+    color: turquoise;
+    transform: scale(1.1);
 }
