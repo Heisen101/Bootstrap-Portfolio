@@ -25,7 +25,7 @@ body {
     text-transform: uppercase;
     color: white;
 }
-.navbar .d-flex #navbarNav ul li a {
+.navbar .container-fluid #navbarNav ul li a {
     
     color: white;
     transition: 0.3s;
@@ -33,24 +33,24 @@ body {
 
     
 }
-.navbar .d-flex #navbarNav ul li a:hover{
+.navbar .container-fluid #navbarNav ul li a:hover{
 color: turquoise;
 transform: scale(1.1);
 }
-.navbar .d-flex .navbar-toggler {
+.navbar .container-fluid .navbar-toggler {
     color: white ;
     margin-right: 10px;
     border: 2px;
     transition: 0.3s;
     
 }
-.navbar .d-flex .navbar-toggler:hover{
+.navbar .container-fluid .navbar-toggler:hover{
     color: turquoise;
 }
 
 /* ---------------Heading Section */
 .jumbotron {
-    background-image: url(../images/future\ expirience.png);
+    background-image: url(../images/darker.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
