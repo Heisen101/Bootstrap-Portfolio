@@ -107,6 +107,8 @@ transform: scale(1.1);
     word-spacing: 15px;
     letter-spacing: 5px;
     font-weight: bold;
+    font-family: var(--text1);
+    text-transform: uppercase;
 }
 #skills .container-lg .row .card img {
    
@@ -133,6 +135,8 @@ transform: scale(1.1);
 #portfolio h2 {
     font-family: var(--text1);
     font-weight: bold;
+    font-family: var(--text1);
+    text-transform: uppercase;
 }
 #portfolio h2 .container-lg img {
     transition: 0.3s;
@@ -150,4 +154,10 @@ transform: scale(1.1);
 #portfolio .container-lg .card:hover {
     color: turquoise;
 transform: scale(1.1);
+}
+/* ------About me Section ---- */
+#about h2{
+    font-family: var(--text1);
+    text-transform: uppercase;
+    font-family: bold;
 }
