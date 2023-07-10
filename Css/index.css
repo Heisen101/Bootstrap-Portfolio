@@ -143,17 +143,11 @@ transform: scale(1.1);
     text-align: center;
    
 }
+#portfolio .container-lg .card p {
+    font-family: var(--text1);
+   text-transform: uppercase;
+}
 #portfolio .container-lg .card:hover {
     color: turquoise;
 transform: scale(1.1);
-}
-#portfolio {
-    background: rl(../images/1892752.jpg);
-    
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    max-height: 100%;
 }
