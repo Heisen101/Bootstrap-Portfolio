@@ -244,3 +244,76 @@ color: aliceblue;
 
 
 /* end footer section */
+
+
+/* -----Media Querry */
+
+@media screen and (max-width: 1225px ) {
+
+#skills .container-lg .row  .card-text {
+    font-size: 0.8em !important;
+}
+#portfolio .container-lg .card {
+    width: 25rem !important;
+    
+   
+}
+#portfolio .container-lg .card #p1{
+    margin-bottom: 0 ;
+    
+   
+}
+
+
+    
+}
+@media screen and (max-width: 1000px ) {
+    #portfolio .container-lg .card {
+        width: 20rem !important;
+        
+       
+    }
+}
+
+
+@media screen and (max-width: 910px ) {
+
+    #skills .container-lg .row  .card-text {
+        font-size: 0.7em !important;
+    }
+    
+    
+        
+    }
+    @media screen and (max-width: 767px ) {
+        #portfolio .container-lg .card {
+            width: 30rem !important;
+            
+           
+        }
+    }
+    @media screen and (max-width: 736px ) {
+
+        #skills .container-lg .row  .card-text {
+            font-size: 0.6em !important;
+        }
+        
+        
+            
+        }
+        @media screen and (max-width: 575px ) {
+
+            #skills .container-lg .row  .card-text {
+                font-size: 0.8em !important;
+            }
+            
+            
+                
+            }
+            @media screen and (max-width: 513px ) {
+                #portfolio .container-lg .card {
+                    width: 26rem !important;
+                    
+                   
+                }
+            }
