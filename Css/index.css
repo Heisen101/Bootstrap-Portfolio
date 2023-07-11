@@ -279,8 +279,10 @@ color: aliceblue;
 @media screen and (max-width: 1000px ) {
     #portfolio .container-lg .card {
         width: 20rem !important;
-        
-       
+    }
+    #portfolio .container-lg  {
+        margin-left: 7% !important;
+        margin-right: 7% !important;
     }
 }
 
@@ -306,7 +308,9 @@ color: aliceblue;
         #skills .container-lg .row  .card-text {
             font-size: 0.6em !important;
         }
-        
+        #portfolio .container-lg .row p{
+            font-size: 0.9em;
+        }
         
             
         }
@@ -330,6 +334,11 @@ color: aliceblue;
                     
                    
                 }
+                #portfolio .container-lg  {
+                    margin-left: 3% !important;
+                    margin-right: 1% !important;
+                }
+            
             }
             @media screen and (max-width: 439px ) {
                 #portfolio .container-lg .card {
