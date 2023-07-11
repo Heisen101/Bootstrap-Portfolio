@@ -1,6 +1,7 @@
 :root {
     --text1: Lucida;
     --color1: turquoise;
+    --shadow1:  rgb(118, 205, 205) ;
 }
  
 body {
@@ -165,6 +166,8 @@ transform: scale(1.1);
 #portfolio .container-lg .card:hover {
     color: turquoise;
 transform: scale(1.1);
+box-shadow: inset 1px 16px 8px var(--shadow1);
+
 }
 /* ------About me Section ---- */
 #about h2{
@@ -219,6 +222,15 @@ color: aliceblue;
 }
 .fotter .row .social-icons {
     margin-top: 5px;
+}
+
+.fotter .row .social-icons a{
+    transition: 0.3s ease;
+}
+
+.fotter .row .social-icons a img:hover{
+    transform: scale(1.1);
+    box-shadow: inset 0px 0px 8px var(--shadow1);
 }
 
 
