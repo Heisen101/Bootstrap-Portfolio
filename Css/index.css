@@ -215,6 +215,10 @@ color: aliceblue;
 /* -------footer section */
 .fotter .row .social-icons a {
     margin: 15px;
+    
+}
+.fotter .row .social-icons {
+    margin-top: 5px;
 }
 
 
