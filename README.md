@@ -13,7 +13,7 @@ This repository contains the code for a portfolio website. The website is design
 
 ## Introduction
 
-The portfolio website is a personal project created by Vasile Orbu to highlight his skills, showcase his work, and provide information about his background and experience. The website is built using HTML, CSS, and the Bootstrap framework.
+The portfolio website is a [personal project](https://heisen101.github.io/Bootstrap-Portfolio/) created by Vasile Orbu to highlight his skills, showcase his work, and provide information about his background and experience. The website is built using HTML, CSS, and the Bootstrap framework.
 
 ## Features
 
