@@ -196,3 +196,16 @@ color: aliceblue;
     color: turquoise ;
     transform: scale(1.1);
 }
+
+
+/* ------contanct section  */
+
+
+#contact .row h2 {
+    font-family: var(--text1);
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+/* ---------end contact section */
