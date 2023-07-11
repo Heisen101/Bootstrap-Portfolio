@@ -245,7 +245,11 @@ color: aliceblue;
 
 /* end footer section */
 
-
+.offset::before {
+    display: block;
+    content: "";
+    height: 6rem;
+}
 /* -----Media Querry */
 
 @media screen and (max-width: 1225px ) {
