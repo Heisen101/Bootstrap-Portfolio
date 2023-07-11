@@ -179,8 +179,10 @@ box-shadow: inset 1px 16px 8px var(--shadow1);
     word-spacing: 15px;
     letter-spacing: 3px;
 }
-#about .card {
-    border: none;
+#about .row {
+    margin-left: 15px;
+    margin-right: 10px;
+   
 }
 #about h5, p  {
 font-family: var(--text1);
