@@ -312,7 +312,21 @@ color: aliceblue;
             }
             @media screen and (max-width: 513px ) {
                 #portfolio .container-lg .card {
-                    width: 26rem !important;
+                    width: 25rem !important;
+                    
+                   
+                }
+            }
+            @media screen and (max-width: 439px ) {
+                #portfolio .container-lg .card {
+                    width: 23rem !important;
+                    
+                   
+                }
+            }
+            @media screen and (max-width: 400px ) {
+                #portfolio .container-lg .card {
+                    width: 20rem !important;
                     
                    
                 }
