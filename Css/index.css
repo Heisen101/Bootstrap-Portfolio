@@ -294,7 +294,7 @@ color: aliceblue;
     }
     @media screen and (max-width: 767px ) {
         #portfolio .container-lg .card {
-            width: 30rem !important;
+            width: 33rem !important;
             
            
         }
@@ -312,6 +312,11 @@ color: aliceblue;
 
             #skills .container-lg .row  .card-text {
                 font-size: 0.8em !important;
+            }
+            #portfolio .container-lg .card {
+                width: 30rem !important;
+                
+               
             }
             
             
