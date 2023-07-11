@@ -156,12 +156,14 @@ transform: scale(1.1);
     text-align: center;
    
 }
-#portfolio .container-lg .card p {
+#portfolio .container-lg .card h5 {
     font-family: var(--text1);
    text-transform: uppercase;
-   color: black;
-   font-weight: bold;
-   
+   font-weight: bold;   
+   font-size: 1.1em;
+}
+#portfolio .container-lg .card p{
+    color: black;
 }
 #portfolio .container-lg .card:hover {
     color: turquoise;
@@ -210,6 +212,12 @@ color: aliceblue;
     text-transform: uppercase;
     
 
+}
+#contact .row .col-auto button {
+    color: turquoise;
+    transform: scale(1.1);
+    box-shadow: inset 0px 0px 8px var(--shadow1);
+    
 }
 
 
