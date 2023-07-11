@@ -143,6 +143,8 @@ transform: scale(1.1);
     font-family: var(--text1);
     text-transform: uppercase;
     color: aliceblue;
+    word-spacing: 15px;
+    letter-spacing: 3px;
 }
 #portfolio h2 .container-lg img {
     transition: 0.3s;
@@ -174,6 +176,8 @@ box-shadow: inset 1px 16px 8px var(--shadow1);
     text-transform: uppercase;
     font-weight: bold;
     color: aliceblue;
+    word-spacing: 15px;
+    letter-spacing: 3px;
 }
 #about .card {
     border: none;
@@ -207,6 +211,8 @@ color: aliceblue;
     font-family: var(--text1);
     font-weight: bold;
     text-transform: uppercase;
+    word-spacing: 15px;
+    letter-spacing: 3px;
     
 
 }
