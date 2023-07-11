@@ -32,9 +32,7 @@ body {
     
     color: white;
     transition: 0.3s;
-    transition: transform 0.3s ease-in;
-
-    
+    transition: transform 0.3s ease-in;   
 }
 .navbar .container-fluid #navbarNav ul li a:hover{
 color: turquoise;
@@ -45,8 +43,7 @@ transform: scale(1.1);
     margin-right: 10px;
     border: 2px;
     transition: 0.3s;
-    
-}
+    }
 .navbar .container-fluid .navbar-toggler:hover{
     color: turquoise;
 }
